@@ -1,0 +1,32 @@
+@media(max-width:1200px) {
+    
+	.shree-leela-yoga-navigation {
+        display: none;
+    }
+	.shree-leela-logo-name>h1{
+		font-size:22px!important;
+	}
+	.nav-btn{
+		position: absolute;
+		top: -40px;
+		right: 16px;
+		color:rgb(241, 97, 90);
+	    display:block!important;	
+   
+	}
+	/*navigation*/
+	
+	
+	
+	.left{
+		float:left!important;
+	}
+	/*header*/
+	
+	/*gallery*/
+	.shree-leela-yoga-classes-gallery>img {
+       width: 100%!important;
+    }
+}
+
+

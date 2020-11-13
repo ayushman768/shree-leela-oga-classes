@@ -1,0 +1,240 @@
+/* SHREE LEELA YOGA CLASSES  
+............................
+
+/* Main Stylesheet Contain list 
+ ----------------------------------      
+          /*Website Tag list 
+
+1)  header
+2)  Navigation
+3)  section
+4)  footer
+
+        /*Website images custum list 
+
+5)  Images of services
+6)  image of gallery
+7)  image of About
+       
+         /*Website font custum 
+
+8)  font-size
+9)  font-color
+10) font-family
+ 
+       /*Website backgrounds
+11) backgrounds-color
+12) backgrounds-images 
+
+      /*Website basic css
+13) height,widht
+14) padding,margin
+15) Buttons
+
+----------------------------------------  
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ :root {
+    /*----color-css */
+    --color-pink: linear-gradient(130deg,rgb(100 43 115),rgb(198 66 110));
+
+    --color-white: white;
+    --color-durty-gray: rgb(84 118 112);
+    --color-black: black;
+    /* ----color-css */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* /*Global-css */
+
+a:hover {
+    background-color: transparent!important;
+}
+
+p {
+    font-size: 19px;
+    font-family: 'Jost', sans-serif;
+    color: var(--color-durty-gray);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 30px!important;
+    color: var(--color-durty-gray)!important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.shree-leela-yoga-navigation,
+.shree-leela-yoga-header {
+    font-family: 'Jost', sans-serif!important;
+}
+
+.contact-shree-leela-yoga-classes>ul>li>a {
+    color: var(--color-durty-gray);
+    font-size: 16px;
+    font-weight: 600;
+	
+}
+
+section {
+    padding-top: 68px!important;
+}
+
+
+/* /global-css */
+
+
+/* website basic css */
+
+.pad-10,
+nav {
+    padding: 10px;
+}
+
+.buttn {
+    background: var(--color-pink);
+    color: var(--color-white)!important;
+    border-radius: 30px;
+    font-size: bold;
+    font-weight: bold;
+    box-shadow: 0px 0px 7px 0px #f1615ae0;
+}
+
+
+/*--/website basic css */
+
+
+/*images css*/
+
+img {
+    width: 100%!important;
+    display: block!important;
+}
+
+.shree-leela-yoga-classes-gallery>img {
+    width: 281px!important;
+}
+
+
+/*---/images css*/
+
+
+/* background css */
+
+header {
+    background-image: var(--color-pink);
+}
+
+nav {
+    background-color: var(--color-white);
+}
+
+footer {
+    background-color: black;
+}
+
+
+/*
+/* header css */
+
+.shree-leela-yoga-header {
+    color: var(--color-white)!important;
+	
+}
+
+.shree-leela-yoga-header>ul>li>a {
+    color: var(--color-white)!important;
+	font-size: 17px;
+}
+.adress{
+	font-size: 15px!important;
+}
+
+/* /--header */
+
+
+/* navigation */
+
+.shree-leela-logo-name>h1 {
+    font-family: 'Playfair Display', serif!important;
+    color: var(--color-durty-gray);
+}
+
+.shree-leela-yoga-navigation>ul>li>a {
+    color: var(--color-durty-gray);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sticky {
+    position:sticky;
+	
+    top: 0px;
+    z-index: 99999999999;
+    padding: 7px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 0px #80808069;
+}
+.nav-btn{
+	display:none;
+}
+
+/* /--navigation */
+
+
+/* footer */
+
+footer>h2,
+h3,
+h4 {
+    color: var(--color-white);
+}
+
+.footer-widget-menu>ul>li>a {
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.widget {
+    background-image: var(--color-pink);
+}
+.right{
+	float:right!important;
+}
+.benifits-strength>span,h6,h1,h2{
+	display:inline-block;
+}
+ .benifits-strength>ul>li{
+	color: var(--color-durty-gray);
+    font-size: 16px;
+    font-weight: 600;
+	 padding: 10px;
+ }
+ .benifits-strength{
+	 padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(128 128 128 / 48%);
+	margin:10px 0px;
+	color:var(--color-pink);
+ }
+/* /--footer */
